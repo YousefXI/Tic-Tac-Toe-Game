@@ -82,3 +82,35 @@ body {
    padding-bottom: 10px;
    border-bottom: 1px solid #ccc;
 }
+
+.select-box .title {
+   font-size: 18px;
+   font-weight: 500;
+   margin: 20px 0;
+}
+
+.select-box .options {
+   display: flex;
+   width: 100%;
+}
+
+.options button {
+   cursor: pointer;
+   width: 100%;
+   font-size: 18px;
+   font-weight: 500;
+   padding: 8px 0;
+   border: non;
+   outline: none;
+   border-radius: 5px;
+   background: var(--primary);
+   color: #fff;
+}
+
+.options button.playerX {
+   margin: 5px;
+}
+
+.options button.playerY {
+   margin: 5px;
+}
